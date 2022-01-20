@@ -1,11 +1,13 @@
 .title{
-    grid-column: 1/13;
-    background-color:gray;
+    grid-row: 1;
+    grid-column: 2/13;
+    background-color: rgb(242 244 245);
+    height: 100%;
 }
 
 .bio{
     grid-column: 1/6;
-    background-color: honeydew;
+    background-color: background-color: rgb(253 240 225); 
 }
 
 #container{
@@ -18,27 +20,27 @@
 
 .contactDetails{
     grid-row: 5;
-    grid-column: 9/11;
+    grid-column: 11/13;
     text-align: center;
-    background-color: khaki;
+    background-color: rgb(253 240 225); 
 
 }
 
 .skills{
     grid-column: 7/9;
     grid-row: 2;
-    background-color: lavender;
+    background-color: rgb(253 240 225); 
 }
 .education{
     grid-column: 9/11;
     grid-row: 2;
-    background-color: lavender;
+    background-color: rgb(253 240 225); 
 }
 
 .workExperience{
     grid-column: 11/13;
     grid-row: 2;
-    background-color: lavender;
+    background-color: rgb(253 240 225); 
 }
 
 #skillsTitle{
@@ -56,8 +58,46 @@
 .projects{
     grid-row: 5;
     grid-column: 1/7;
-    background-color: honeydew;
+    background-color: rgb(253 240 225); 
 }
 body{
-    background-color: whitesmoke;
+    background-color: rgb(253 240 225); 
+}
+#profilePic{
+    grid-column: 1/3;
+    grid-row: 1;
+    width: 100%;
+    border-radius: 50%;
+    height: 100%;
+    
+}
+
+.titleName{
+    grid-row: 1;
+    grid-column: 5/6;
+    padding-left: 20px;
+}
+
+.titleJob{
+    grid-row: 1;
+    grid-column: 5/6;
+    padding-left: 20px;
+}
+
+.image{
+    grid-row: 1;
+    grid-column: 1/2;
+    background-color: rgb(242 244 245);
+    width: 100%;
+    height: 100%;
+}
+div{
+    background-color: rgb(253 240 225); 
+}
+#container{
+    background-color: rgb(253 240 225); 
+}
+
+body{
+    background-color: rgb(253 240 225); 
 }
